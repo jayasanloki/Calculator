@@ -136,7 +136,7 @@ char c;
                 (c== '-') ||
                 (c== '*') ||
                 (c== '/')) {
-            Toast.makeText(this,"Don't play with me", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Check numbers properly", Toast.LENGTH_SHORT).show();
             return;
         }
          String res="";
